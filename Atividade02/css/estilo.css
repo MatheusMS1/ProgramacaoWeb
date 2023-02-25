@@ -1,0 +1,85 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+}
+
+body{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    grid-template-rows: 60px 400px auto 40px;
+    grid-template-areas: 
+    "topo topo"
+    "banner menu"
+    "corpo menu"
+    "rodape rodape";
+}
+
+.topo{
+    background-color: rgb(6, 104, 134);
+    grid-area: topo;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.menu{
+    background-color: aqua; 
+    grid-area: menu;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner{
+    grid-area: banner;
+}
+
+.corpo{
+    background-color: rgb(181, 222, 241);
+    grid-area: corpo;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+}
+
+.rodape{
+    background-color: rgb(0, 14, 90);
+    grid-area: rodape;
+}
+
+.topo img{
+    height: 70px;
+    width: 70px;
+}
+
+.topo a{
+    color: white;
+}
+
+.rodape p{
+    display: flex;
+    justify-content: center;
+    color: rgb(240, 237, 237);
+}
+
+.topo href{
+    color: white;
+}
+
+.menu img{
+    height: 120px;
+    width: 120px;
+    padding: 20px;
+}
+
+.banner img{
+    width: 100%;
+    height: 100%;
+}
+
+.corpo img{
+    width: 250px;
+    height: 300px;
+}
