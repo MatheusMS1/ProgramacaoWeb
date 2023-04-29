@@ -1,0 +1,20 @@
+img{
+    height: 300px;
+    width: 100%;
+}
+
+.vermelho{
+    color: rgb(243, 19, 19);
+}
+
+.lista{
+    list-style-type: georgian;
+}
+
+.txt30px{
+    font-size: 30px;
+}
+
+.txtGrande{
+    font-size: 50px;
+}
