@@ -1,8 +1,0 @@
-.buttonInsert{
-    background-color: rgb(61, 60, 61);
-    color: rgb(243, 240, 240);
-}
-
-input::placeholder{
-    color: red;
-}
